@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-img {
+  height: 500px;
+  width: 500px;
+  border-radius: 220px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-container {
+  width: 200;
+  height: 200;
+  margin: 100px;
+  padding: 100px;
+  display: inline-block;
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+}
+.App-container1 {
+  background-color: #dcf84e;
+  float: left;
+}
+
+.App-container2 {
+  background-color: #e09b3f;
+  float: right;
+}
+.App-container3 {
+  background-color: #45e2bb;
+  float: left;
+}
+.App-container4 {
+  background-color: #f84ee1;
+  float: right;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-carousal {
+  padding: 50px;
+  top: 100px;
+  position: relative;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.accordion-item {
+  overflow: hidden;
+  background-color: greenyellow;
+  color: black;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+.accordion-item.collapsed {
+  max-height: 0;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}

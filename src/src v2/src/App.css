@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-img {
+  height: 550px;
+  width: 550px;
+  border-radius: 220px;
+}
+
+#logo-img{
+  height: 200px;
+  width: 200px;
+  border: 1px;
+border-radius: 5px;
+  padding-left: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #logo-img {
+    animation: App-logo-spin infinite 8s ;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header {
+  background-color: black;
+  background-image: url("./components/images/background/back5.jpg");
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.App-container {
+width: auto;
+height: auto;
+margin: 10px;
+padding: 50px;
+color: aliceblue;
+text-decoration: none;
+border: 1px solid black;
+border-radius: 80px;
+}
+
+.App-container1 {
+  background-color: #4144ec;
+  float: left;
+}
+
+.App-container2 {
+  background-color: #3fa4d3;
+  float: right;
+
+}
+.App-container3 {
+  background-color: #45e267;
+  float: left;
+}
+.App-container4 {
+  background-color: #96eb34;
+  float: right;
+}
+.App-container5 {
+  background-color: #e2631a;
+  float: left;
+}
+.App-container6 {
+  background-color: #eb0e8f;
+  float: right;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-carousal {
+  padding: 50px;
+  top: 200px;
+  position: relative;
+
+}
+
+.accordion-item {
+  overflow: hidden;
+  background-color: greenyellow;
+  color: black;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+.accordion-item.collapsed {
+  max-height: 0;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
